@@ -49,7 +49,7 @@ _.forEach(Array.from(year.by('months')), month => {
             
             for (i = 0; i < month.day(); i++)
             {
-                paddedDays.unshift(' ');
+                paddedDays.unshift('');
                 //TODO: Append blank spaces (using paddedDays.unshift('  ')) so that the 1st ends up under the right day column 
             }
             
@@ -65,7 +65,7 @@ _.forEach(Array.from(year.by('months')), month => {
                 // TODO: Join the days together to form one string representing the week
               
                 // TODO: console.log it use week.join('  ')
-                console.log(week.join(" "))
+                console.log(week.join("  "))
             })
         
         console.log('') // Puts a blank line between each month
