@@ -65,7 +65,7 @@ _.forEach(Array.from(year.by('months')), month => {
                 // TODO: Join the days together to form one string representing the week
               
                 // TODO: console.log it use week.join('  ')
-                console.log(week.join(""))
+                console.log(week.join(" "))
             })
         
         console.log('') // Puts a blank line between each month
